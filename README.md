@@ -17,4 +17,5 @@ Repository contents:
 
 ## Adaptation
 * Samples were mapped to updated reference genome accession #GCA_937001465.1 (chromosome-level updated in 2022)
+  
 Notes: In progress
