@@ -17,6 +17,7 @@ n_list <- n_list[,c("CHROM", "POS")]
 write.table(n_list, "REF_N_to_filter.txt", sep = "\t", row.names = FALSE, col.names = FALSE, quote=FALSE)
 
 # exit R
+q()
 
 # zip the vcf b/c file size is very big
 bgzip orca_unfiltered_diploid.vcf
