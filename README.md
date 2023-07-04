@@ -7,13 +7,14 @@ A repository for genomic work on Canadian Arctic killer whales, organized by two
 Notes: Samples were mapped to reference genome accession #GCA_000331955.1 and processed following Foote et al. 2016. Genomic variants were called by Matt Thorstensen using FreeBayes. ABBA BABBA statistics completed by Andy Foote.
 
 Repository contents:
-* Filtering and preparing SNP datasets for analyses
-* Site map
-* Kinship analysis with MLE
-* Population structure (PCA, FST, sNMF)
-* Runs of Homozygosity (ROH)
-* Demographic history with SMC++ and GONE
-* Estimating contemporary Ne with StrataG
+1) Filtering and preparing SNP datasets for analyses
+2) Site map
+3) Kinship analysis with MLE
+4) Population structure (PCA, FST, sNMF)
+5) Runs of Homozygosity (ROH)
+6) Demographic history with GONE
+7) Demographic history with SMC++ (in the "smcpp" folder)
+8) Estimating contemporary Ne with StrataG
 
 ## Adaptation
 * Samples were mapped to updated reference genome accession #GCA_937001465.1 (chromosome-level updated in 2022)
