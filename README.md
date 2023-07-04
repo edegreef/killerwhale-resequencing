@@ -11,11 +11,12 @@ Repository contents:
 2) Filtering and preparing SNP datasets for analyses
 3) Site map
 4) Kinship analysis with MLE
-5) Population structure (PCA, FST, sNMF)
-6) Runs of Homozygosity (ROH)
-7) Demographic history with GONE
-8) Demographic history with SMC++ (in the "smcpp" folder)
-9) Estimating contemporary Ne with StrataG
+5) Population structure (PCA, FST)
+6) Population structure (admixture) (sNMF)
+7) Runs of Homozygosity (ROH)
+8) Demographic history with GONE
+9) Demographic history with SMC++ (in the "smcpp" folder)
+10) Estimating contemporary Ne with StrataG
 
 ## Adaptation
 * Samples were mapped to updated reference genome accession #GCA_937001465.1 (chromosome-level updated in 2022)
