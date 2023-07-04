@@ -25,11 +25,6 @@ grep -v "^#" orca_snps_q30_biallelic_HWE0.005_miss0.4.vcf | cut -f1 | sort | uni
 # add row number to become the new scaffold names:
 awk '{print $0,NR}' scaf_list_check.txt > rename_scaffolds.txt
 
-# Note for bowhead whale stuff later when we will be using more scaffolds: add a "s" for each number (the --allow-extra-chr in plink doesn't work for raw numbers...) will remove this later because then GONE only takes number values ... ugh.
-# Would be fine if plink doesn't max number chr at 95 -- specific to bowhead maybe??
-# Dont need to worry about that for KW or narwhal since below 95 scaffolds.
-#awk '$2="s"$2' rename_scaffolds.txt > rename_scaffolds2.txt
-
 # Rename scaffolds-- in hindsight, better do to this step before separating vcfs into each pop.
 /home/degreefe/programs/bcftools-1.9/bcftools annotate --rename-chrs rename_scaffolds.txt orca_snps_q30_biallelic_HWE0.005_miss0.4.P1.maf05.vcf -Oz -o orca_snps_q30_biallelic_HWE0.005_miss0.4.P1.maf05.scafrename.vcf.gz
 
