@@ -4,7 +4,7 @@ A repository for genomic work on Canadian Arctic killer whales, organized by two
 2. Adaptation (n=70+)
 
 ## Demography
-Notes: Samples were mapped to reference genome accession #GCA_000331955.1 and processed following Foote et al. 2016. ABBA BABBA statistics completed by Andy Foote.
+Notes: Samples were mapped to reference genome accession #GCA_000331955.1 and processed following Foote et al. 2016. Global analyses completed by Andy Foote (https://github.com/AndrewDFoote/Orcanomics)
 
 Repository contents:
 1) Calling genomic variants with FreeBayes, script by Matt Thorstensen
