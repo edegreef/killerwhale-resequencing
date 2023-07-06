@@ -49,7 +49,8 @@ ggplot(pca.scores, aes(x=PC1, y=PC2))+
   geom_point(aes(color=sample_info$location_name), size=3, alpha=0.9)+
   #scale_color_manual(values=c("#440254","#414487ff", "#2a788eff", "#22a884ff", "#7ad151ff","#fce624ff"),
   scale_color_manual(values=c("#ffaa00ff","#0c56beff", "#ff6200ff", "#e3001bff", "#9b1212ff","#56b7f3ff"),
-                     breaks=c("Arctic Bay","Pond Inlet", "Repulse Bay", "Pangnirtung", "East Greenland", "Newfoundland"), labels=c("Arctic Bay", "Pond Inlet", "Naujaat", "Pangnirtung", "East Greenland", "Newfoundland"))+
+                     breaks=c("Arctic Bay","Pond Inlet", "Repulse Bay", "Pangnirtung", "East Greenland", "Newfoundland"), 
+                     labels=c("Ikpiarjuk", "Mittimatalik", "Naujaat", "Pangnirtung", "East Greenland", "Newfoundland"))+
   
   labs(color="Location")+
   theme_bw()+
