@@ -1,6 +1,10 @@
 # Admixture analysis through LEA's sNMF
 # and plotting pie chart admixture map using help from Tom Jenkins' tutorial on github (https://github.com/Tom-Jenkins/admixture_pie_chart_map_tutorial)
 
+# 1) Prep and run sNMF
+# 2) Set up for pie charts
+# 3) Nicer admixture plot
+
 # Install LEA
 #library(devtools)
 #devtools::install_github("bcm-uga/LEA")
@@ -17,10 +21,6 @@ library(ggpubr)
 
 # Note: the snmf function doesn't do well with files on dropbox but can run move files elsewhere after the snmf function if preferred
 setwd("C:/Users/eveli/Desktop/LEA_killerwhale")
-
-# 1) Prep and run sNMF
-# 2) Set up for pie charts
-# 3) Nicer admixture plot
 
 ######## 1) Prep and run sNMF
 # Convert ped file to geno file (automatically outputs in working directory)
