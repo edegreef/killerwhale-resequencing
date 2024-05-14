@@ -1,7 +1,8 @@
-# Killer Whale Resequencing
+![github_header_KW](https://github.com/edegreef/killerwhale-resequencing/assets/49288304/97aa6c79-2999-4e89-8836-5c125a76c3f4)
 A repository for genomic work on Canadian Arctic killer whales, organized by two projects: 
 1. Demography and population structure (n=29)
 2. Adaptation (n=70+)
+
 
 ## Demography
 Notes: Samples were mapped to reference genome accession #GCA_000331955.1 and processed following Foote et al. 2016. Global analyses completed by Andy Foote (https://github.com/AndrewDFoote/Orcanomics)
